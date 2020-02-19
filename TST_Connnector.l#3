@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -73,6 +73,36 @@
 </layers>
 <library>
 <packages>
+<package name="TST_DR_10">
+<wire x1="0" y1="0" x2="33.02" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="9.271" width="0.127" layer="21"/>
+<wire x1="33.02" y1="0" x2="33.02" y2="9.271" width="0.127" layer="21"/>
+<wire x1="33.02" y1="9.271" x2="0" y2="9.271" width="0.127" layer="21"/>
+<pad name="P$1" x="5.08" y="5.969" drill="1.016"/>
+<pad name="P$2" x="7.62" y="5.969" drill="1.016"/>
+<pad name="P$3" x="10.16" y="5.969" drill="1.016"/>
+<pad name="P$4" x="12.7" y="5.969" drill="1.016"/>
+<pad name="P$5" x="15.24" y="5.969" drill="1.016"/>
+<pad name="P$6" x="17.78" y="5.969" drill="1.016"/>
+<pad name="P$7" x="20.32" y="5.969" drill="1.016"/>
+<pad name="P$8" x="22.86" y="5.969" drill="1.016"/>
+<pad name="P$9" x="25.4" y="5.969" drill="1.016"/>
+<pad name="P$10" x="27.94" y="5.969" drill="1.016"/>
+<pad name="P$11" x="5.08" y="3.429" drill="1.016"/>
+<pad name="P$12" x="7.62" y="3.429" drill="1.016"/>
+<pad name="P$13" x="10.16" y="3.429" drill="1.016"/>
+<pad name="P$14" x="12.7" y="3.429" drill="1.016"/>
+<pad name="P$15" x="15.24" y="3.429" drill="1.016"/>
+<pad name="P$16" x="17.78" y="3.429" drill="1.016"/>
+<pad name="P$17" x="20.32" y="3.429" drill="1.016"/>
+<pad name="P$18" x="22.86" y="3.429" drill="1.016"/>
+<pad name="P$19" x="25.4" y="3.429" drill="1.016"/>
+<pad name="P$20" x="27.94" y="3.429" drill="1.016"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="8.001" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="31.75" y2="1.27" width="0.127" layer="21"/>
+<wire x1="31.75" y1="1.27" x2="31.75" y2="8.001" width="0.127" layer="21"/>
+<wire x1="31.75" y1="8.001" x2="1.27" y2="8.001" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TST">
