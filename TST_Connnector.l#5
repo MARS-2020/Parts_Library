@@ -116,16 +116,16 @@
 <pin name="P$8" x="0" y="38.1" length="middle"/>
 <pin name="P$9" x="0" y="43.18" length="middle"/>
 <pin name="P$10" x="0" y="48.26" length="middle"/>
-<pin name="P$11" x="30.48" y="2.54" length="middle" rot="R180"/>
-<pin name="P$12" x="30.48" y="7.62" length="middle" rot="R180"/>
-<pin name="P$13" x="30.48" y="12.7" length="middle" rot="R180"/>
-<pin name="P$14" x="30.48" y="17.78" length="middle" rot="R180"/>
-<pin name="P$15" x="30.48" y="22.86" length="middle" rot="R180"/>
-<pin name="P$16" x="30.48" y="27.94" length="middle" rot="R180"/>
-<pin name="P$17" x="30.48" y="33.02" length="middle" rot="R180"/>
-<pin name="P$18" x="30.48" y="38.1" length="middle" rot="R180"/>
-<pin name="P$19" x="30.48" y="43.18" length="middle" rot="R180"/>
-<pin name="P$20" x="30.48" y="48.26" length="middle" rot="R180"/>
+<pin name="P$11" x="30.48" y="48.26" length="middle" rot="R180"/>
+<pin name="P$12" x="30.48" y="43.18" length="middle" rot="R180"/>
+<pin name="P$13" x="30.48" y="38.1" length="middle" rot="R180"/>
+<pin name="P$14" x="30.48" y="33.02" length="middle" rot="R180"/>
+<pin name="P$15" x="30.48" y="27.94" length="middle" rot="R180"/>
+<pin name="P$16" x="30.48" y="22.86" length="middle" rot="R180"/>
+<pin name="P$17" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="P$18" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="P$19" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="P$20" x="30.48" y="2.54" length="middle" rot="R180"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="50.8" width="0.254" layer="94"/>
 <wire x1="5.08" y1="50.8" x2="25.4" y2="50.8" width="0.254" layer="94"/>
 <wire x1="25.4" y1="50.8" x2="25.4" y2="0" width="0.254" layer="94"/>
@@ -140,6 +140,28 @@
 </gates>
 <devices>
 <device name="" package="TST_DR_10">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$10" pad="10"/>
+<connect gate="G$1" pin="P$11" pad="11"/>
+<connect gate="G$1" pin="P$12" pad="12"/>
+<connect gate="G$1" pin="P$13" pad="13"/>
+<connect gate="G$1" pin="P$14" pad="14"/>
+<connect gate="G$1" pin="P$15" pad="15"/>
+<connect gate="G$1" pin="P$16" pad="16"/>
+<connect gate="G$1" pin="P$17" pad="17"/>
+<connect gate="G$1" pin="P$18" pad="18"/>
+<connect gate="G$1" pin="P$19" pad="19"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$20" pad="20"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
+<connect gate="G$1" pin="P$8" pad="8"/>
+<connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

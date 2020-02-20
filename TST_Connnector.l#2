@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -74,34 +74,26 @@
 <library>
 <packages>
 <package name="TST_DR_10">
-<wire x1="0" y1="0" x2="33.02" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="22.86" y2="0" width="0.127" layer="21"/>
 <wire x1="0" y1="0" x2="0" y2="9.271" width="0.127" layer="21"/>
-<wire x1="33.02" y1="0" x2="33.02" y2="9.271" width="0.127" layer="21"/>
-<wire x1="33.02" y1="9.271" x2="0" y2="9.271" width="0.127" layer="21"/>
+<wire x1="22.86" y1="0" x2="22.86" y2="9.271" width="0.127" layer="21"/>
+<wire x1="22.86" y1="9.271" x2="0" y2="9.271" width="0.127" layer="21"/>
 <pad name="1" x="5.08" y="5.969" drill="1.016"/>
 <pad name="2" x="7.62" y="5.969" drill="1.016"/>
 <pad name="3" x="10.16" y="5.969" drill="1.016"/>
 <pad name="4" x="12.7" y="5.969" drill="1.016"/>
 <pad name="5" x="15.24" y="5.969" drill="1.016"/>
 <pad name="6" x="17.78" y="5.969" drill="1.016"/>
-<pad name="7" x="20.32" y="5.969" drill="1.016"/>
-<pad name="8" x="22.86" y="5.969" drill="1.016"/>
-<pad name="9" x="25.4" y="5.969" drill="1.016"/>
-<pad name="10" x="27.94" y="5.969" drill="1.016"/>
-<pad name="11" x="5.08" y="3.429" drill="1.016"/>
-<pad name="12" x="7.62" y="3.429" drill="1.016"/>
-<pad name="13" x="10.16" y="3.429" drill="1.016"/>
-<pad name="14" x="12.7" y="3.429" drill="1.016"/>
-<pad name="15" x="15.24" y="3.429" drill="1.016"/>
-<pad name="16" x="17.78" y="3.429" drill="1.016"/>
-<pad name="17" x="20.32" y="3.429" drill="1.016"/>
-<pad name="18" x="22.86" y="3.429" drill="1.016"/>
-<pad name="19" x="25.4" y="3.429" drill="1.016"/>
-<pad name="20" x="27.94" y="3.429" drill="1.016"/>
+<pad name="7" x="5.08" y="3.429" drill="1.016"/>
+<pad name="8" x="7.62" y="3.429" drill="1.016"/>
+<pad name="9" x="10.16" y="3.429" drill="1.016"/>
+<pad name="10" x="12.7" y="3.429" drill="1.016"/>
+<pad name="11" x="15.24" y="3.429" drill="1.016"/>
+<pad name="12" x="17.78" y="3.429" drill="1.016"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="8.001" width="0.127" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="31.75" y2="1.27" width="0.127" layer="21"/>
-<wire x1="31.75" y1="1.27" x2="31.75" y2="8.001" width="0.127" layer="21"/>
-<wire x1="31.75" y1="8.001" x2="1.27" y2="8.001" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="21.59" y2="1.27" width="0.127" layer="21"/>
+<wire x1="21.59" y1="1.27" x2="21.59" y2="8.001" width="0.127" layer="21"/>
+<wire x1="21.59" y1="8.001" x2="1.27" y2="8.001" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -116,16 +108,16 @@
 <pin name="P$8" x="0" y="38.1" length="middle"/>
 <pin name="P$9" x="0" y="43.18" length="middle"/>
 <pin name="P$10" x="0" y="48.26" length="middle"/>
-<pin name="P$11" x="30.48" y="48.26" length="middle" rot="R180"/>
-<pin name="P$12" x="30.48" y="43.18" length="middle" rot="R180"/>
-<pin name="P$13" x="30.48" y="38.1" length="middle" rot="R180"/>
-<pin name="P$14" x="30.48" y="33.02" length="middle" rot="R180"/>
-<pin name="P$15" x="30.48" y="27.94" length="middle" rot="R180"/>
-<pin name="P$16" x="30.48" y="22.86" length="middle" rot="R180"/>
-<pin name="P$17" x="30.48" y="17.78" length="middle" rot="R180"/>
-<pin name="P$18" x="30.48" y="12.7" length="middle" rot="R180"/>
-<pin name="P$19" x="30.48" y="7.62" length="middle" rot="R180"/>
-<pin name="P$20" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="P$11" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="P$12" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="P$13" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="P$14" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="P$15" x="30.48" y="22.86" length="middle" rot="R180"/>
+<pin name="P$16" x="30.48" y="27.94" length="middle" rot="R180"/>
+<pin name="P$17" x="30.48" y="33.02" length="middle" rot="R180"/>
+<pin name="P$18" x="30.48" y="38.1" length="middle" rot="R180"/>
+<pin name="P$19" x="30.48" y="43.18" length="middle" rot="R180"/>
+<pin name="P$20" x="30.48" y="48.26" length="middle" rot="R180"/>
 <wire x1="5.08" y1="0" x2="5.08" y2="50.8" width="0.254" layer="94"/>
 <wire x1="5.08" y1="50.8" x2="25.4" y2="50.8" width="0.254" layer="94"/>
 <wire x1="25.4" y1="50.8" x2="25.4" y2="0" width="0.254" layer="94"/>
@@ -134,6 +126,18 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="TS_DR_10">
+<gates>
+<gate name="G$1" symbol="TST" x="-27.94" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="TST_DR_10">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
