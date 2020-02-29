@@ -144,6 +144,17 @@ reflow soldering</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SI2312BDS">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
