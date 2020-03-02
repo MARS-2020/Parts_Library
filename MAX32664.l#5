@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -141,6 +141,8 @@
 <smd name="SENSOR_SDA@1" x="3.35" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R270"/>
 <smd name="VSS@2" x="0.95" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
 <smd name="VSS@1" x="0.7" y="0.4" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="EP" x="2.3" y="1.6" dx="1.7" dy="1.4" layer="1" rot="R90"/>
+<text x="0.85" y="3.4" size="0.254" layer="25">MAX32664</text>
 </package>
 </packages>
 <symbols>
@@ -178,6 +180,45 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="MAX32664_TQFN">
+<gates>
+<gate name="G$1" symbol="MAX32664" x="0" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="MAX32664">
+<connects>
+<connect gate="G$1" pin="32KIN" pad="32KIN"/>
+<connect gate="G$1" pin="32KOUT" pad="32KOUT"/>
+<connect gate="G$1" pin="ACCEL_INT" pad="ACCEL_INT@1 ACCEL_INT@2"/>
+<connect gate="G$1" pin="DNC@1" pad="DNC@1"/>
+<connect gate="G$1" pin="DNC@2" pad="DNC@2"/>
+<connect gate="G$1" pin="DNC@3" pad="DNC@3"/>
+<connect gate="G$1" pin="DNC@4" pad="DNC@4"/>
+<connect gate="G$1" pin="DNC@5" pad="DNC@5"/>
+<connect gate="G$1" pin="DNC@6" pad="DNC@6"/>
+<connect gate="G$1" pin="DNC@7" pad="DNC@7"/>
+<connect gate="G$1" pin="EP" pad="EP"/>
+<connect gate="G$1" pin="HR_INT" pad="HR_INT"/>
+<connect gate="G$1" pin="MFIO" pad="MFIO@1 MFIO@2"/>
+<connect gate="G$1" pin="NC@1" pad="NC@1"/>
+<connect gate="G$1" pin="NC@2" pad="NC@2"/>
+<connect gate="G$1" pin="RSTN" pad="RSTN"/>
+<connect gate="G$1" pin="SENSOR_SCL" pad="SENSOR_SCL"/>
+<connect gate="G$1" pin="SENSOR_SDA" pad="SENSOR_SDA@1 SENSOR_SDA@2"/>
+<connect gate="G$1" pin="SLAVE_SCL" pad="SLAVE_SCL"/>
+<connect gate="G$1" pin="SLAVE_SDA" pad="SLAVE_SDA"/>
+<connect gate="G$1" pin="VCORE" pad="VCORE"/>
+<connect gate="G$1" pin="VDD@1" pad="VDD@1"/>
+<connect gate="G$1" pin="VDD@2" pad="VDD@2"/>
+<connect gate="G$1" pin="VSS@1" pad="VSS@1 VSS@2"/>
+<connect gate="G$1" pin="VSS@2" pad="VSS@3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

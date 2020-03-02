@@ -74,11 +74,11 @@
 <library>
 <packages>
 <package name="MAX32664">
-<smd name="P$1" x="0.7" y="2.4" dx="0.7" dy="0.2" layer="1"/>
-<smd name="P$2" x="0.7" y="2" dx="0.7" dy="0.2" layer="1"/>
-<smd name="P$3" x="0.7" y="1.6" dx="0.7" dy="0.2" layer="1"/>
-<smd name="P$4" x="0.7" y="1.2" dx="0.7" dy="0.2" layer="1"/>
-<smd name="P$5" x="0.7" y="0.8" dx="0.7" dy="0.2" layer="1"/>
+<smd name="DNC@1" x="0.7" y="2.4" dx="0.7" dy="0.2" layer="1"/>
+<smd name="NC@1" x="0.7" y="2" dx="0.7" dy="0.2" layer="1"/>
+<smd name="DNC@2" x="0.7" y="1.6" dx="0.7" dy="0.2" layer="1"/>
+<smd name="DNC@3" x="0.7" y="1.2" dx="0.7" dy="0.2" layer="1"/>
+<smd name="RSTN" x="0.7" y="0.8" dx="0.7" dy="0.2" layer="1"/>
 <polygon width="0.01" layer="1">
 <vertex x="1.05" y="2.7"/>
 <vertex x="0.35" y="2.7"/>
@@ -86,11 +86,11 @@
 <vertex x="0.85" y="3.4"/>
 <vertex x="1.05" y="3.4"/>
 </polygon>
-<smd name="P$6" x="1.35" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
-<smd name="P$7" x="1.75" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
-<smd name="P$8" x="2.15" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
-<smd name="P$9" x="2.55" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
-<smd name="P$10" x="2.95" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="SLAVE_SCL" x="1.35" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="SLAVE_SDA" x="1.75" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="VDD@2" x="2.15" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="DNC@7" x="2.55" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="DNC@6" x="2.95" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
 <polygon width="0.01" layer="1">
 <vertex x="3.25" y="2.7"/>
 <vertex x="3.25" y="3.4"/>
@@ -98,11 +98,11 @@
 <vertex x="3.95" y="2.9"/>
 <vertex x="3.95" y="2.7"/>
 </polygon>
-<smd name="P$11" x="3.6" y="2.4" dx="0.7" dy="0.2" layer="1"/>
-<smd name="P$12" x="3.6" y="2" dx="0.7" dy="0.2" layer="1"/>
-<smd name="P$13" x="3.6" y="1.6" dx="0.7" dy="0.2" layer="1"/>
-<smd name="P$14" x="3.6" y="1.2" dx="0.7" dy="0.2" layer="1"/>
-<smd name="P$15" x="3.6" y="0.8" dx="0.7" dy="0.2" layer="1"/>
+<smd name="HR_INT" x="3.6" y="2.4" dx="0.7" dy="0.2" layer="1"/>
+<smd name="DNC@5" x="3.6" y="2" dx="0.7" dy="0.2" layer="1"/>
+<smd name="DNC@4" x="3.6" y="1.6" dx="0.7" dy="0.2" layer="1"/>
+<smd name="NC@2" x="3.6" y="1.2" dx="0.7" dy="0.2" layer="1"/>
+<smd name="SENSOR_SCL" x="3.6" y="0.8" dx="0.7" dy="0.2" layer="1"/>
 <polygon width="0.01" layer="1">
 <vertex x="3.25" y="0.5"/>
 <vertex x="3.25" y="-0.2"/>
@@ -110,11 +110,11 @@
 <vertex x="3.95" y="0.3"/>
 <vertex x="3.95" y="0.5"/>
 </polygon>
-<smd name="P$16" x="2.95" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
-<smd name="P$17" x="2.55" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
-<smd name="P$18" x="2.15" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
-<smd name="P$19" x="1.75" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
-<smd name="P$20" x="1.35" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="VCORE" x="2.95" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="VDD@1" x="2.55" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="VSS@3" x="2.15" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="32KIN" x="1.75" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="32KOUT" x="1.35" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
 <polygon width="0.01" layer="1">
 <vertex x="0.35" y="0.5"/>
 <vertex x="1.05" y="0.5"/>
@@ -133,6 +133,16 @@
 <wire x1="0.65" y1="3.1" x2="3.65" y2="3.1" width="0.05" layer="21"/>
 <wire x1="3.65" y1="3.1" x2="3.65" y2="0.1" width="0.05" layer="21"/>
 <wire x1="3.65" y1="0.1" x2="0.65" y2="0.1" width="0.05" layer="21"/>
+<smd name="MFIO@2" x="0.7" y="2.8" dx="0.7" dy="0.2" layer="1"/>
+<smd name="MFIO@1" x="0.95" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="ACCEL_INT@2" x="3.35" y="3.05" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="ACCEL_INT@1" x="3.6" y="2.8" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="SENSOR_SDA@2" x="3.6" y="0.4" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="SENSOR_SDA@1" x="3.35" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R270"/>
+<smd name="VSS@2" x="0.95" y="0.15" dx="0.7" dy="0.2" layer="1" rot="R90"/>
+<smd name="VSS@1" x="0.7" y="0.4" dx="0.7" dy="0.2" layer="1" rot="R180"/>
+<smd name="EP" x="2.3" y="1.6" dx="1.7" dy="1.4" layer="1" rot="R90"/>
+<text x="0.85" y="3.4" size="0.254" layer="25">MAX32664</text>
 </package>
 </packages>
 <symbols>
